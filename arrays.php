@@ -2,7 +2,7 @@
 
 error_reporting(-1);
 
-function indent(){
+function indent(){ //мне лень было писать <br>, так что это функция для отступа.
     echo "<br><br><br>";
 }
 
