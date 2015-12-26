@@ -26,7 +26,8 @@ $textNonPalindrome = "Я совсем не палиндром";
 
 function isPalindrome($string){
     $string = str_replace(" ","",mb_strtolower($string));
-/*    $ebuchka = 1; ты была хорошим другом, ебучка.
+/*
+ *     $ebuchka = 1; ты была хорошим другом, ебучка.
 */
     for ($i = 0; $i <= floor(mb_strlen($string)/2); $i++){
         if (mb_substr($string, $i-1, 1) != mb_substr($string, -$i, 1)){
