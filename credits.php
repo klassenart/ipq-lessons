@@ -14,7 +14,7 @@ function countCredit($price, $percent, $commision, $openAccountPayment, $payment
     $price += $openAccountPayment;
     $percent = ($percent/100) + 1; //хуй знает зачем я это сделал, но вроде удобно.
 
-    if(($price*$percent+$commision) - $price >= $payment){ //проверка на возможность выпалитить кредит
+    if(($price*$percent+$commision) - $price >= $payment){ //проверка на возможность выплитить кредит
         return "Вам нужно платить больше чтобы покрыть этот кредит.";
     }
 
