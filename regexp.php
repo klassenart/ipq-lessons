@@ -2,7 +2,8 @@
 
 error_reporting(-1);
 //------------------------------------------------------------------------------------------------------------------------//
-function isNumbersCorrect(){
+function isNumbersCorrect()
+{
     echo "Задача на проверку номера телефона:<br>";
     $inputData = array(
         '8-(800)-555 35 35',
@@ -29,7 +30,8 @@ isNumbersCorrect();
 echo "<br><br><br>";
 //------------------------------------------------------------------------------------------------------------------------//
 
-function isGrammarNaziHappy(){
+function isGrammarNaziHappy()
+{
     echo "Grammar Nazi:<br>";
 
     $inputData = "
@@ -46,13 +48,13 @@ function isGrammarNaziHappy(){
 
     preg_match_all($regexp, $inputData, $matches);
     echo "Найдено ошибок: ", count($matches), "<br>";
-    for ($i = 0; $i<count($matches[0]); $i++){
+    for ($i = 0; $i < count($matches[0]); $i++) {
         echo "Ошибка: {$matches[0][$i]}<br>";
     }
 
 
-
 }
+
 isGrammarNaziHappy();
 
 //скоро начну дальше делать.
