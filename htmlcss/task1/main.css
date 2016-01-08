@@ -1,0 +1,19 @@
+.block1,
+.block2 {
+    width: 66%;
+    background-color: #FEFD8F;
+    height: 80px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 80px;
+    color: #2F3F77;
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+
+}
+.block2 {
+    margin-left: 34%;
+    background-color: #F6CCFC;
+}

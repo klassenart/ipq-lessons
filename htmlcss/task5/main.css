@@ -1,0 +1,14 @@
+.redbox,
+.yellowbox,
+.greenbox {
+    padding: 3px;
+}
+.redbox {
+    background-color: #F7B4AD;
+}
+.yellowbox {
+    background-color: #FCF38D;
+}
+.greenbox {
+    background-color: #CEFFC1;
+}

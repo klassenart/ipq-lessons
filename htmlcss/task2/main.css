@@ -1,0 +1,9 @@
+.block {
+    margin: 10px;
+    max-width: 580px;
+    min-width: 10px;
+    padding: 10px;
+    background-color: #E2FFDC;
+    border: 1px solid black;
+    font-size: 14px;
+}

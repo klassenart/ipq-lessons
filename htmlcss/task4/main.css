@@ -1,0 +1,24 @@
+.container,
+.block,
+.blockBottom {
+    padding: 10px;
+    font: 14px Verdana, Geneva, sans-serif;
+    word-spacing: -.36em;
+}
+
+.container {
+    background-color: #D7E1FD;
+}
+
+.block,
+.blockBottom {
+    background-color: #FEFA8F;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    border: 1px solid black;
+    word-spacing: normal;
+}
+.blockBottom {
+    vertical-align: bottom;
+}

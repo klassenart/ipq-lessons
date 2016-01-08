@@ -1,0 +1,10 @@
+.text,
+.heart {
+    font-family:'Times New Roman', sans-serif;
+    font-style: normal;
+    font-size: 40px
+}
+.heart {
+    color: red;
+    font-size: 60px;
+}
