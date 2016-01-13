@@ -1,0 +1,43 @@
+.footer {
+    font: 24px sans-serif;
+    margin: 10px;
+}
+
+.menu {
+    width: 200px;
+    margin: 10px;
+    height: 100%;
+    float: left;
+    clear: both;
+    font-size: 20px;
+    border: black solid 2px;
+    border-left: 0;
+    background-color: pink;
+}
+
+.article {
+    margin-left: 220px;
+    margin-right: 10px;
+
+
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+li:first-child {
+    padding-top: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
